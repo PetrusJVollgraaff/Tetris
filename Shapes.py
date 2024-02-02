@@ -48,7 +48,7 @@ class SShape(Piece):
 
     def __init__(self, x_axis, y_axis):
         super().__init__(x_axis, y_axis)
-        self.color = (0, 255, 0)
+        self.color = (60, 255, 0)
         self.shape = [
             ['.....', '.....', '..00.', '.00..', '.....'],
             ['.....', '..0..', '..00.', '...0.', '.....']
@@ -59,7 +59,7 @@ class ZShape(Piece):
 
     def __init__(self, x_axis, y_axis):
         super().__init__(x_axis, y_axis)
-        self.color = (255, 0, 0)
+        self.color = (255, 60, 0)
         self.shape = [
             ['.....', '.....', '.00..', '..00.', '.....'],
             ['.....', '..0..', '.00..', '.0...', '.....']
@@ -70,7 +70,7 @@ class IShape(Piece):
 
     def __init__(self, x_axis, y_axis):
         super().__init__(x_axis, y_axis)
-        self.color = (0, 255, 255)
+        self.color = (60, 255, 255)
         self.shape = [
             ['..0..', '..0..', '..0..', '..0..', '.....'],
             ['.....', '0000.', '.....', '.....', '.....']
@@ -81,7 +81,7 @@ class OShape(Piece):
 
     def __init__(self, x_axis, y_axis):
         super().__init__(x_axis, y_axis)
-        self.color = (255, 255, 0)
+        self.color = (255, 255, 60)
         self.shape = [
             ['.....', '.....', '.00..', '.00..', '.....']
         ]
@@ -91,7 +91,7 @@ class JShape(Piece):
 
     def __init__(self, x_axis, y_axis):
         super().__init__(x_axis, y_axis)
-        self.color = (255, 165, 0)
+        self.color = (255, 165, 60)
         self.shape = [
             ['.....', '.0...', '.000.', '.....', '.....'],
             ['.....', '..00.', '..0..', '..0..', '.....'],
@@ -104,7 +104,7 @@ class LShape(Piece):
 
     def __init__(self, x_axis, y_axis):
         super().__init__(x_axis, y_axis)
-        self.color = (0, 0, 255)
+        self.color = (60, 60, 255)
         self.shape = [
             ['.....', '...0.', '.000.', '.....', '.....'],
             ['.....', '..0..', '..0..', '..00.', '.....'],
@@ -117,7 +117,7 @@ class TShape(Piece):
 
     def __init__(self, x_axis, y_axis):
         super().__init__(x_axis, y_axis)
-        self.color = (128, 0, 128)
+        self.color = (128, 60, 128)
         self.shape = [
             ['.....', '..0..', '.000.', '.....', '.....'],
             ['.....', '..0..', '..00.', '..0..', '.....'],
