@@ -45,8 +45,6 @@ class PlayScreen:
         for i in range(len(shape_pos)):
             x, y = shape_pos[i]
             if y > -1:
-                print( self.grids[y][x] )
-                #pygame.draw.rect(win, self.grids[y][x], (top_leftx + j * block_size, top_lefty + i * block_size, block_size, block_size), 1)  # horizontal lines
                 self.grids[y][x] = shape.color
 
 

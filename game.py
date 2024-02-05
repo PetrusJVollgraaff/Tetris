@@ -134,9 +134,9 @@ def main(win):
         # IF PIECE HIT GROUND
         change_piece, current_shape, next_shape = ps.shapeChange(current_shape, next_shape, change_piece)
 
-        draw_window(win, ps.grid)
-        draw_nextShape(next_shape, win)
 
+        draw_nextShape(next_shape, win)
+        draw_window(win, ps.grids)
         pygame.display.update()
 
         # Check if user lost
