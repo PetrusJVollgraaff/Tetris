@@ -1,0 +1,14 @@
+# Tetris
+Using Python and PyGame to create an Tetris Game
+
+### Action added:
+> * Starting Screen
+> * Shapes for Tetris.
+> * Container for Tetris Blocks
+> * insuring shapes can move left/right and rotate
+> * remove Rows when Shapes create full row
+
+### Outstanding:
+> * Score board
+> * Next Shapes Displayer
+> * Winner/Losers Screen
